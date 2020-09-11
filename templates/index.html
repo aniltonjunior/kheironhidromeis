@@ -24,7 +24,6 @@
 
     <div class="hero">
         {% block hero %}
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
         <section class="text-center">
             <h1 class="heading-text" style="font-size: 50px">
                 Kheiron Hidromeis
@@ -37,7 +36,7 @@
 
         <div class="explore-more text"
             onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
-            Explore More ⇩
+            Saiba Mais ⇩
         </div>
         <style>
             .hero section {
@@ -87,7 +86,7 @@
 
         <div class="content text">
             {% block content %}
-            <div id="features" class="heading-text">Overview</div>
+            <div id="features" class="heading-text">Sobre</div>
             {{ section.content | safe }}
             {% endblock content %}
         </div>
