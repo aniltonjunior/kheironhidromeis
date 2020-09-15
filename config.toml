@@ -16,6 +16,6 @@ theme = "juice"
 # Put all your custom variables here
 juice_logo_name = "Kheiron Hidromeis"
 juice_logo_path = "juice.svg"
-juice_extra_menu = [
-    { title = "Contato", link = "mailto:contato@kheironhidromeis.com.br"}
-]
+#juice_extra_menu = [
+#    { title = "Contato", link = "mailto:contato@kheironhidromeis.com.br"}
+#]
