@@ -11,6 +11,8 @@ Os aromas e sabores são ricos e complexos, características do mel que se mant�
 
 A temperatura de serviço sugerida é de 17ºC, porém também aceita resfriamento como de um vinho branco.
 
+<img src="/hidromel_mesa.jpeg" alt="Hidromel" width="400" height="500">
+
 # Kheiron
 
 A **Kheiron Hidroméis** surgiu para suprir a demanda criada pelos livros, séries e filmes onde o hidromel é sempre citado, porém inexistente nos mercados convencionais.
