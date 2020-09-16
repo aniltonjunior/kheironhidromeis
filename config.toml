@@ -12,6 +12,7 @@ highlight_code = true
 build_search_index = true
 
 theme = "juice"
+title = "Kheiron Hidromeis"
 [extra]
 # Put all your custom variables here
 juice_logo_name = "Kheiron Hidromeis"
