@@ -13,7 +13,7 @@
     {% endfor %}
     {% if config.extra.juice_extra_menu %}
         {% for menu in config.extra.juice_extra_menu %}
-        <a class="nav-item subtitle-text" href="{{ menu.link }}"><img src="{{ menu.title }}.svg" alt="{{ menu.title }}" /></a>
+        <a class="nav-item subtitle-text" href="{{ menu.link }}"><img src="/{{ menu.title }}.svg" alt="{{ menu.title }}" /></a>
         {% endfor %}
     {% endif %}
 </nav>
