@@ -9,14 +9,30 @@ compile_sass = true
 highlight_code = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+#build_search_index = true
 
+languages = [
+	{code = "en"}
+]
+
+default_language = "pt-br"
 theme = "juice"
+
+[translations]
+[translations.en]
+title = "Kheiron Mead"
+text_template = "We try to offer to the public a alternative to wine and beer through historical rescue of this ancient beverage still new in Brazil."
+read_more = "Read More"
+[translations.pt-br]
 title = "Kheiron Hidromeis"
+text_template = "Buscamos oferecer ao público uma alternativa à cerveja e ao vinho, através do resgate histórico dessa bebida milenar ainda nova no Brasil."
+read_more = "Leia Mais"
+
 [extra]
 # Put all your custom variables here
 juice_logo_name = "Kheiron Hidromeis"
 juice_logo_path = "juice.svg"
-#juice_extra_menu = [
-#    { title = "Contato", link = "mailto:contato@kheironhidromeis.com.br"}
-#]
+juice_extra_menu = [
+    { title = "br", link = "/"},
+	{ title = "en", link = "/en"}
+]
