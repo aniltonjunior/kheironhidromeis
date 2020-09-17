@@ -23,10 +23,12 @@ theme = "juice"
 title = "Kheiron Mead"
 text_template = "We try to offer to the public a alternative to wine and beer through historical rescue of this ancient beverage still new in Brazil."
 read_more = "Read More"
+email = "int.contact@brazilianmead.com.br"
 [translations.pt-br]
 title = "Kheiron Hidromeis"
 text_template = "Buscamos oferecer ao público uma alternativa à cerveja e ao vinho, através do resgate histórico dessa bebida milenar ainda nova no Brasil."
 read_more = "Leia Mais"
+email = "contato@kheironhidromeis.com.br"
 
 [extra]
 # Put all your custom variables here
