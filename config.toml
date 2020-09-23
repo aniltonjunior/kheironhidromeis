@@ -21,7 +21,7 @@ theme = "juice"
 [translations]
 [translations.en]
 title = "Kheiron Mead"
-text_template = "We try to offer to the public a alternative to wine and beer through historical rescue of this ancient beverage still new in Brazil."
+text_template = "We offer to the public an alternative to wine and beer through historical rescue of this ancient beverage still new in Brazil."
 read_more = "Read More"
 email = "int.contact@brazilianmead.com.br"
 [translations.pt-br]
