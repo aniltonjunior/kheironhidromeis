@@ -21,6 +21,6 @@ Buscamos oferecer ao público uma alternativa à cerveja e ao vinho, através do
 
 # Nossa empresa
 
-Possuímos vasta experiência na produção de hidromel, sendo 10 anos de forma artesanal e mais 10 com foco na produção artesanal.
+Possuímos vasta experiência na produção de hidromel, sendo 10 anos de forma artesanal e mais 10 com foco na produção industrial.
 
 Situada na região metropolitana de Curitiba, com um a planta de 150m², dedicada exclusivamente à produção de hidromel.
