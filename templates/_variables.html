@@ -1,15 +1,76 @@
 <style>
-    :root {
-        /* Primary theme color */
-        --primary-color: #F4DC65;
-        /* Primary theme text color */
-        --primary-text-color: #543631;
-        /* Primary theme link color */
-        --primary-link-color: #F9BB2D;
-        /* Secondary color: the background body color */
-        --secondary-color: #fcfaf6;
-        --secondary-text-color: #303030;
-        /* Highlight text color of table of content */
-        --toc-highlight-text-color: #d46e13;
-    }
+:root {
+    /* Primary theme color */
+    --primary-color: #F4DC65;
+    /* Primary theme text color */
+    --primary-text-color: #543631;
+    /* Primary theme link color */
+    --primary-link-color: #F9BB2D;
+    /* Secondary color: the background body color */
+    --secondary-color: #fcfaf6;
+    --secondary-text-color: #303030;
+    /* Highlight text color of table of content */
+    --toc-highlight-text-color: #d46e13;
+}
+
+#overlay-maioridade {
+    background: rgba(244, 220, 101, 0.9) !important;
+    color: var(--primary-text-color);
+    overflow: hidden !important;
+}
+
+#overlay-maioridade .modal-content {
+    background: transparent;
+    border: transparent
+}
+
+#overlay-maioridade .modal-body .texto h2 {
+    font-size: 26px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 5px
+}
+
+#overlay-maioridade .modal-body .texto p {
+    font-size: 23px;
+    font-weight: 500
+}
+
+#overlay-maioridade .modal-body .texto2 p {
+    font-size: 15px;
+    padding: 0 0 12px;
+    border-bottom: 1px solid#234787;
+    width: 280px;
+    margin-bottom: 6px;
+    text-align: center
+}
+
+#overlay-maioridade .modal-body p.final {
+    font-size: 14px
+}
+
+#overlay-maioridade .modal-body .buttons button {
+    width: 120px;
+    color: #fff;
+    background: var(--primary-link-color);
+    font-weight: bold;
+    border-radius: 10px !important;
+    border-color: transparent;
+    height: 45px;
+    font-size: 22px;
+    padding: 0
+}
+
+#overlay-maioridade .modal-body .buttons button.btn-close {
+    margin-right: 7px
+}
+
+#overlay-maioridade .modal-body .buttons button.btn-not {
+    margin-left: 7px
+}
+
+#overlay-maioridade .modal-body .buttons button:hover {
+    background: #d46e13;
+    color: var(--primary-text-color)
+}
 </style>
