@@ -28,7 +28,8 @@
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/normalize.css">
-    <link rel="stylesheet" href="{{ get_url(path="juice.css") }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ get_url(path="juice.css") }}" defer>
     {% block head %}
     {% endblock head %}
 </head>
@@ -77,6 +78,30 @@
             }
         </style>
         {% endblock hero %}
+        
+        <div id="overlay-maioridade" class="modal fade show" role="dialog" aria-modal="true">
+            <div class="modal-dialog modal-dialog-centered" role="document"> 
+                <div class="modal-content"> 
+                    <div class="modal-body"> 
+                        <div class="row"> 
+                            <div class="col-12 text-center texto"> 
+                                <img style="width: 45%" src="juice.svg"> 
+                                <h2>Bem Vindo!!!</h2> 
+                                <p>Sua idade é superior a <strong>18</strong> anos?</p> 
+                            </div> 
+                            <div class="buttons mt-3 d-flex flex-wrap col-12 p-0 justify-content-center align-items-center"> 
+                                <button type="button" class="btn btn-close" data-toggle="modal" data-target="#overlay-maioridade">Sim</button> 
+                                <button type="button" class="btn btn-not" onclick="location.href='http://www.google.com.br'">Não</button> 
+                            </div> 
+                            <div class="col-12 mt-4 d-flex justify-content-center texto2"> 
+                                <p>Conteúdo para maiores de 18 anos.</p> 
+                            </div> 
+                            <p class="mt-2 w-100 text-center final">A venda de bebidas alcoólicas é proibida para menores de 18 anos.</p> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div>
     </div>
 
     {% endblock header %}
@@ -125,6 +150,9 @@
     </footer>
     {% endblock footer %}
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js" integrity="sha512-teGKRDIINyavMA8HWd2it9556yHW6RLuay1xk3s/d87nSU/GGFgt4DNwmAhrZUdpKtgTQCdISUvA0sZqrLpczg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script>
     function highlightNav(heading) {
         let pathname = location.pathname;
@@ -158,6 +186,9 @@
             }
         }
     }
+    $(document).ready(function() {
+        $("#overlay-maioridade").modal();
+    });
 </script>
 
 </html>
